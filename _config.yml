@@ -1,0 +1,16 @@
+title: "OX News"
+description: "Descrição em breve!"
+permalink: '/p/:title.html'
+img: "https://i1.wp.com/4kwallpapers.com/images/walls/thumbs_2t/4700.jpg" #https://picsum.photos/460/270
+baseurl: ""
+url: "https://newslatter.souox.com"
+markdown: kramdown
+theme: minima
+safe: false
+# Define regras automáticas para arquivos específicos
+defaults:
+  - scope:
+      path: ""       # Aplica-se a todo o projeto
+      type: "posts"  # Alvo: apenas os arquivos dentro da pasta _posts
+    values:
+      layout: "post.html" # Injeta automaticamente o layout padrão do seu template
