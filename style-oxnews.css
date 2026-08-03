@@ -84,8 +84,8 @@ cursor: pointer;
 transition: background-color 0.2s, border-color 0.2s;
 }
 .subscribe-form button:hover {
-background-color: #e23a21;
-border-color: #e23a21;
+background-color: #9a6f12;
+border-color: #9a6f12;
 }
 footer {
 position: absolute;
