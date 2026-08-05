@@ -1,7 +1,7 @@
 title: "OX News"
 description: "Descrição em breve!"
 permalink: '/p/:title.html'
-img: "https://i1.wp.com/4kwallpapers.com/images/walls/thumbs_2t/4700.jpg" #https://picsum.photos/460/270
+img: "https://i.ytimg.com/vi/3dacSexuyCo/hq720.jpg" #https://picsum.photos/460/270?https://i1.wp.com/4kwallpapers.com/images/walls/thumbs_2t/4700.jpg
 baseurl: ""
 url: "https://newslatter.souox.com"
 markdown: kramdown
