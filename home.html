@@ -1,7 +1,6 @@
----
----
 <!DOCTYPE html>
 <html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="pt-BR">
+
 <head>
 	<title>HOME | OX NEWS</title>
 	<link rel="icon" type="image/vnd.microsoft.icon" href="https://fonts.gstatic.com/s/e/notoemoji/17.0/1f69a/32.png" />
@@ -171,10 +170,13 @@
     text-decoration: none;
     color: #ff0033;
    }
-	</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--><!--[if true]><style>.forceBgColor{background-color: white !important}</style><![endif]-->
+	</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TZBPFV014K"></script>
+  <script> function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "G-TZBPFV014K", { cookie_domain: "auto" }) </script>
+	<!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]--><!--[if true]><style>.forceBgColor{background-color: white !important}</style><![endif]-->
 </head>
 
-<body class="body forceBgColor" style="margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none; background-color: transparent;"><div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">#Preheader - 130 caracteres</div>
+<body class="body forceBgColor" style="margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none; background-color: transparent;"><div class="preheader" style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">{{ page.description | default: site.description | strip_html | truncate: 160 }}</div>
 	<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: transparent; background-image: none; background-position: top left; background-size: auto; background-repeat: no-repeat;">
 		<tbody>
 			<tr>
@@ -194,7 +196,7 @@
 																	<tr>
 																		<td class="pad">
 																			<div style="color:#444;direction:ltr;font-family:'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:-1px;line-height:1.2;text-align:center;mso-line-height-alt:17px;">
-																				<p style="margin: 0;">Visualizar este e-mail como&nbsp;<a href="#permalink" target="_self">página web</a></p>
+																				<p style="margin: 0;">Visualizar este e-mail como&nbsp;<a href="{{ page.url | absolute_url }}" target="_self">página web</a></p>
 																			</div>
 																		</td>
 																	</tr>
@@ -209,8 +211,8 @@
 																<table class="paragraph_block block-3" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; word-break: break-word;">
 																	<tr>
 																		<td class="pad">
-																			<div style="color:#444;direction:ltr;font-family:'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:1;text-align:center;mso-line-height-alt:14px;">
-																				<p style="margin: 0;">Enviado para {{ .Subscriber.Email }}<br><a href="https://souox.com/oxnws" target="_blank" rel="noopener">Gerenciar preferências</a>&nbsp;|&nbsp;<a href="{{ UnsubscribeURL }}" target="_blank" rel="noopener">Cancelar inscrição</a></p>
+																			<div style="color:#444;direction:ltr;font-family:'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:1;text-align:center;mso-line-height-alt:14px;">{% raw %}
+																				<p style="margin: 0;">Enviado para {{ .Subscriber.Email }}<br><a href="https://souox.com/oxnws" target="_blank" rel="noopener">Gerenciar preferências</a>&nbsp;|&nbsp;<a href="{{ UnsubscribeURL }}" target="_blank" rel="noopener">Cancelar inscrição</a></p>{% endraw %}
 																			</div>
 																		</td>
 																	</tr>
@@ -225,7 +227,7 @@
 																<table class="heading_block block-5" width="100%" border="0" cellpadding="10" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 																	<tr>
 																		<td class="pad" style="width:100%;" align="center">
-																			<h1 style="margin: 0; color: #9a6f12; direction: ltr; font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; line-height: 1.2; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 29px;"><span class="tinyMce-placeholder" style="word-break: break-word;">DOMINGO, 26/07/2026</span></h1>
+																			<h1 style="margin: 0; color: #9a6f12; direction: ltr; font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: normal; line-height: 1.2; text-align: center; margin-top: 0; margin-bottom: 0; mso-line-height-alt: 29px;"><span class="tinyMce-placeholder" style="word-break: break-word;">***</span></h1>
 																		</td>
 																	</tr>
 																</table>
@@ -505,11 +507,11 @@
 																		<td class="pad" align="center">
 																			<table class="social-table" width="180px" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 																				<tr>
-																					<td style="padding:0 0 0 0px;"><a href="https://gean.me/fb" target="_blank"><img src="images/1_facebook2x.png" width="32" height="auto" alt="facebook" title="facebook" style="display: block; height: auto; border: 0;"></a></td>
-																					<td style="padding:0 0 0 5px;"><a href="https://gean.me/tw" target="_blank"><img src="images/2_twitter2x.png" width="32" height="auto" alt="twitter" title="twitter" style="display: block; height: auto; border: 0;"></a></td>
-																					<td style="padding:0 0 0 5px;"><a href="https://gean.me/ig" target="_blank"><img src="images/3_instagram2x.png" width="32" height="auto" alt="instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
-																					<td style="padding:0 0 0 5px;"><a href="https://gean.me/zap" target="_blank"><img src="images/4_whatsapp2x.png" width="32" height="auto" alt="WhatsApp" title="WhatsApp" style="display: block; height: auto; border: 0;"></a></td>
-																					<td style="padding:0 0 0 5px;"><a href="https://souox.com/radio" target="_blank"><img src="images/5_applemusic2x.png" width="32" height="auto" alt="AppleMusic" title="AppleMusic" style="display: block; height: auto; border: 0;"></a></td>
+																					<td style="padding:0 0 0 0px;"><a href="https://souox.com/fb" target="_blank"><img src="images/1_facebook2x.png" width="32" height="auto" alt="facebook" title="facebook" style="display: block; height: auto; border: 0;"></a></td>
+																					<td style="padding:0 0 0 5px;"><a href="https://souox.com/tw" target="_blank"><img src="images/2_twitter2x.png" width="32" height="auto" alt="twitter" title="twitter" style="display: block; height: auto; border: 0;"></a></td>
+																					<td style="padding:0 0 0 5px;"><a href="https://souox.com/ig" target="_blank"><img src="images/3_instagram2x.png" width="32" height="auto" alt="instagram" title="instagram" style="display: block; height: auto; border: 0;"></a></td>
+																					<td style="padding:0 0 0 5px;"><a href="https://souox.com/zap" target="_blank"><img src="images/4_whatsapp2x.png" width="32" height="auto" alt="WhatsApp" title="WhatsApp" style="display: block; height: auto; border: 0;"></a></td>
+																					<td style="padding:0 0 0 5px;"><a href="https://souox.com/radio" target="_blank"><img src="images/5_applemusic2x.png" width="32" height="auto" alt="Rádio OX" title="Rádio OX" style="display: block; height: auto; border: 0;"></a></td>
 																				</tr>
 																			</table>
 																		</td>
@@ -519,7 +521,7 @@
 																	<tr>
 																		<td class="pad" style="padding-bottom:5px;">
 																			<div style="color:#aaa;direction:ltr;font-family:'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:1.2;text-align:center;mso-line-height-alt:17px;">
-																				<p style="margin: 0; margin-bottom: 16px;">Enviado para {{ .Subscriber.Email }}<br><a href="https://souox.com/oxnws" target="_blank" style="text-decoration: underline; color: #1a73e8;" rel="noopener">Gerenciar preferências</a>&nbsp;|&nbsp;<a href="{{ UnsubscribeURL }}" target="_blank" rel="noopener" style="text-decoration: underline; color: #1a73e8;">Cancelar inscrição</a></p>
+																				{% raw %}<p style="margin: 0; margin-bottom: 16px;">Enviado para {{ .Subscriber.Email }}<br><a href="https://souox.com/oxnws" target="_blank" rel="noopener">Gerenciar preferências</a>&nbsp;|&nbsp;<a href="{{ UnsubscribeURL }}" target="_blank" rel="noopener">Cancelar inscrição</a></p>{% endraw %}
 																				<p style="margin: 0;">OX Indústria de Produtos Químicos LTDA<br>Rua Dois, n°69 - Titanlândia, Castanhal / PA<br>CEP: 68741-492</p>
 																			</div>
 																		</td>
@@ -549,12 +551,12 @@
 															<td class="col-pad" style="padding-bottom:5px;padding-top:5px;">
 																<table class="icons_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; text-align: center; line-height: 0;">
 																	<tr>
-																		<td class="pad" style="vertical-align: middle; color: #1e0e4b; font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; padding-top: 5px; padding-bottom: 5px;" align="center"><!--[if vml]><table align="center" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block;padding-left:0px;padding-right:0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" ><![endif]-->
+																		<td class="pad" style="vertical-align: middle; color: #cdced1; font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; padding-top: 5px; padding-bottom: 5px;" align="center"><!--[if vml]><table align="center" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block;padding-left:0px;padding-right:0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;" ><![endif]-->
 																			<!--[if !vml]><!-->
 																			<table class="icons-inner" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block; padding-left: 0px; padding-right: 0px;" cellpadding="0" cellspacing="0" role="presentation"><!--<![endif]-->
 																				<tr>
-																					<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree" style="text-decoration: none;"><img class="icon" alt="Beefree Logo" src="images/6_Beefree-logo.png" height="auto" width="33.6" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
-																					<td style="font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 14px; font-weight: undefined; color: #1e0e4b; vertical-align: middle; letter-spacing: normal; text-align: center; line-height: normal;"><a href="http://designedwithbeefree.com/" target="_blank" title="Designed with Beefree" style="color: #1e0e4b; text-decoration: none;">Designed with Beefree</a></td>
+																					<td style="vertical-align: middle; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;"><a href="https://gean.me/ti" target="_blank" title="Designed with Beefree" style="text-decoration: none;"><img class="icon" alt=💻" src="https://souox.com/file/img/tilogo.png" height="14" width="16.8" align="center" style="display: block; height: auto; margin: 0 auto; border: 0;"></a></td>
+																					<td style="font-family: 'Google Sans', Roboto, Tahoma, Verdana, Segoe, sans-serif; font-size: 8px; font-weight: undefined; color: #cdced1; vertical-align: middle; letter-spacing: normal; text-align: center; line-height: normal;"><a href="https://gean.me/ti" target="_blank" title="ti souox" style="color: #cdced1; text-decoration: none;">TI SOUOX</a></td>
 																				</tr>
 																			</table>
 																		</td>
