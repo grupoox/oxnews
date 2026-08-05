@@ -7,6 +7,12 @@ url: "https://newslatter.souox.com"
 markdown: kramdown
 theme: minima
 safe: false
+
+author_id: "ox-news"      # Identificador único (ex: gean-ramos)
+author_name: "OX NEWS" # Nome que aparecerá no schema
+author_image: "https://souox.com/file/img/header-oxnews.png?v=2" # URL absoluta ou caminho da foto do autor
+author_bio: "Mais inteligente em 5 minutos. Somos uma newslatter gratuita, que tem por objetivo te trazer tudo que você precisa saber para começar o seu dia bem e informado."
+
 # Define regras automáticas para arquivos específicos
 defaults:
   - scope:
